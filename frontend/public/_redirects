@@ -1,0 +1,2 @@
+/api/* https://call-dashboard-backend-xv1r.vercel.app/api/:splat 200
+/* /index.html 200

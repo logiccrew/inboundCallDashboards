@@ -1,0 +1,9 @@
+/* profile.css */
+.profile-container {
+  background-color: #fff;
+  padding: 2rem;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}

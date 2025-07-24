@@ -1,0 +1,61 @@
+/* ErrorPopup.css */
+.error-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.error-popup {
+  background: white;
+  color: blue;
+  border-radius: 10px;
+  padding: 30px 40px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  animation: slideDown 0.3s ease-out;
+  max-width: 400px;
+  width: 90%;
+}
+
+.error-popup h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: blue;
+}
+
+.error-popup p {
+  margin: 15px 0;
+  font-size: 16px;
+}
+
+.error-popup button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.error-popup button:hover {
+  background-color: blue;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
